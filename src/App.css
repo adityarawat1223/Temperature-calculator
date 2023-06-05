@@ -1,38 +1,94 @@
 .App {
   text-align: center;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-image: url("../src/images/Back.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.formcss {
+  position: absolute;
+  width: 500px;
+  left: 0;
+  right: 0;
+  top: 158px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #00000066;
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.textarea {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.labelcss {
+  display: flex;
+  margin-bottom: 10px;
+  /* font-family: auto; */
+  font-weight: bolder;
+  font-family: sans-serif;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.convertbutton {
+  margin-top: 10px;
+  color: white;
+  background-color: limegreen;
+  width: 100px;
+  text-align: center;
+  font-family: cursive;
+  border-radius: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.inputarea {
+  margin-bottom: 10px;
+}
+
+.answer {
+  margin: 10px;
+  color: white;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.form-select {
+  margin-top: 10px;
+  background-color: #00000075;
+  color: white;
+  font-weight: bold;
+}
+
+.inputcss {
+  background-color: #00000096;
+  color: white;
+  font-weight: bold;
+}
+
+
+@media only screen and (max-width : 552px){
+  .formcss{
+    width: 445px;
   }
-  to {
-    transform: rotate(360deg);
+
+}
+
+
+@media only screen and (max-width : 456px){
+  .formcss{
+    width: auto;
   }
+
 }
