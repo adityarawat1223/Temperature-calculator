@@ -28,7 +28,5 @@ npm start
 ```
 
 Make your changes  Then build the App
-## Screenshots
 
-![https://imgur.com/a/8C9XwTA](https://imgur.com/a/8C9XwTA)
 
