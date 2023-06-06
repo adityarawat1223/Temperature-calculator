@@ -8,7 +8,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />}></Route>
       </Routes>
-      {/* <ToastContainer autoClose={1500}/> */}
+    
       <ToastContainer autoClose={1500} />
     </Router>
   );
